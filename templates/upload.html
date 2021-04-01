@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="/static/styles.css"> 
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Login</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+   
+<form action="/upload/" method="POST" enctype="multipart/form-data">
+  <div class="login-box">
+    <h1>START CAMPAIGN</h1>
+    {% csrf_token %}
+ 
+        Campaign name:
+        <input type="text" name="camp_name" placeholder="NAME"><br>
+        Venue:<br>
+        <input type="text" name="venue" placeholder="VENUE"><br>
+        DateTime:
+        <input type="datetime-local" name="datetime"  ><br>
+
+        Select image:
+
+        <input type="file" name="img" placeholder="IMAGE" > <br>
+        About Campaign:
+        <input type="text" name="desc" placeholder="DESCRIPTION" ><br>
+        <input type="submit" > 
+    </div>
+
+    </form>
+</body>
+</html>
+
+   
+    
+    

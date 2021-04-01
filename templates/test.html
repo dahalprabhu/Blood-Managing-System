@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+<link rel="stylesheet" href="/static/style.css"> 
+
+
+<title>BLOOD MANAGEMENT SYSTEM</title>
+
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<style type="text/css">
+
+
+    .bs-example{
+        margin: 10px;
+    }
+</style>
+</head>
+<body>
+<div class="bs-example">
+        <nav class="navbar navbar-expand-lg navbar navbar-dark bg-primary">
+        <a href="#" class="btn btn-dark">BLOOD <br>
+            MANAGEMENT<br>
+             SYSTEM</a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+            <div class="navbar-nav">
+                <a href="" class="btn btn-success">Home</a>
+                <a href="info.html" class="btn btn-danger">INFO</a>
+              
+<head>
+    <link rel="stylesheet" type="text/css" href="/static/css/bootstrap.min.css">
+    </head>
+</head>
+<body>
+<div class="container">
+
+<form method="POST" action="/search/">
+    {% csrf_token %}
+    <div class="form-group">
+        <div class="col-lg-15">
+<input type="text" name="srh" class="form-control" placeholder="ENTER BLOOD_GROUP">
+                
+   
+                </div>
+                </div>
+            </div>
+            <html>
+
+            </form>
+            <div class="navbar-nav">
+
+                {% if user.is_authenticated %}
+                  <li>Hello, {{user.username}}</li>
+                    <li><a href="accounts/logout" class="btn btn-primary">Logout</a></li>
+                {% else %}
+                  <li><a href="accounts/register" class="btn btn-primary">Register</a></li>
+                  <li><a href="accounts/login" class="btn btn-primary">Login</a></li>
+                  {% endif %}
+
+            </div>
+        </div>
+    </nav>
+</div>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+
+
+{% if user.is_authenticated %}
+<a href="upload.html"><button class="button"><span>START CAMPAIGN HERE </span></button></a>
+{% endif %}
+<style>
+  div.gallery {
+    border: 1px solid #ccc;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: 200px;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <body>
+  
+  
+ <h1>LIST OF OUR BLOOD CAMPAIGNS</h1>
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="redcd/">
+        <img src="static/img_2.jpg" alt="Cinque Terre" width="600" height="400">
+      </a>
+      <div class="desc">CAMPAIGN 1</div>
+    </div>
+  </div>
+  
+  
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="hackersclub/">
+        <img src="static/img_3.jpg" alt="Forest" width="600" height="400">
+      </a>
+      <div class="desc">CAMPAIGN 2</div>
+    </div>
+  </div>
+  
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="cust/">
+        <img src="static/img_1.jpeg" alt="Northern Lights" width="600" height="400">
+      </a>
+      <div class="desc">CAMPAIGN 3</div>
+    </div>
+  </div>
+  
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="redcross/">
+        <img src="static/back2.jpeg" alt="Mountains" width="600" height="400">
+      </a>
+      <div class="desc">CAMPAIGN 4</div>
+    </div>
+  </div>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<footer class="section footer-classic context-dark bg-image" style="background: #2d3246;">
+    
+<div class="foot">
+    <div class="container">
+      <div class="row row-30">
+        <div class="col-md-4 col-xl-5">
+          <div class="pr-xl-4">
+            <p>BLOOD MANAGEMENT SYSTEM</p>
+            THE MAIN TARGET OF THIS WEBSITE IS JUST TO MAKE THE PROCESS OF BLOOD DONATION SIMPLE AND EASY.            
+            <!-- Rights-->
+            <p class="rights"><span>©  </span><span class="copyright-year">2018</span><span> </span><span>Waves</span><span>. </span><span>All Rights Reserved.</span></p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <h5>Contacts</h5>
+          <dl class="contact-list">
+            <dt>Address:</dt>
+            <dd>KATHMANDU,NEPAL</dd>
+          </dl>
+          <dl class="contact-list">
+            <dt>email:</dt>
+            <dd>mandishdahal56@gmail.com</dd>
+            <dd>prabhudahal123@gmail.com</dd>
+
+          </dl>
+          <dl class="contact-list">
+            <dt>phones:</dt>
+            <dd>9861705255</dd>
+            
+            </dd>
+          </dl>
+        </div>
+        <div class="col-md-4 col-xl-3">
+          <h5>Links</h5>
+          <ul class="nav-list">
+            <li><a href="#">About</a></li>
+            
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contacts</a></li>
+            
+          </ul>
+        
+    
+  </footer>
+  <style>
+    .footer {
+       position: fixed;
+       right: 0;
+       bottom: 0;
+       width: 100%;
+       background-color: rgb(226, 232, 235);
+       color: rgb(26, 23, 23);
+       text-align: center;
+    }
+    .right{
+      position: fixed;
+      left: 0;
+      bottom: 80px;
+      
+
+    }
+    .left{
+      position: fixed;
+       right: 800px;
+      bottom: 0px;
+      top: 560px;
+      
+
+    }
+    .left1{
+      position: fixed;
+       right: 400px;
+      bottom: 0px;
+      top: 530px;
+      
+
+    }
+  </style>
+
+  
+<div class="footer">
+  
+    <p>CONTACT NUMBER</p>
+      9849575022<br>
+      9861705255<br>
+      9813254455<br>
+
+    <div class="right">
+
+      &copy BLOOD MANAGEMENT SYSYTEM 
+     </div>
+    <div class="left" >EMAIL<br>
+          <p>mandish.dahal56@gmail.com<br>
+          prabhu101@gmail.com<br>
+          anupkhadka11@gmail.com<br>
+    </div>
+</div>
